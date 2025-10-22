@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "NotebookLM Cleaner by aeros",
+  "version": "1.0",
+  "description": "Prevents user uploads in NotebookLM.",
+  "content_scripts": [
+    {
+      "matches": ["https://notebooklm.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
